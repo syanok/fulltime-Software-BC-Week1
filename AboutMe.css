@@ -1,0 +1,115 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px;
+    padding: 0px;
+    background-color: pink;
+    line-height: 1.5;
+    text-decoration:wavy;
+    color: deeppink;
+    border: double deeppink;
+    
+}
+
+.site-header {
+    text-align: center; color: brown;
+}
+
+.site-nav li {
+    Display: inline-block;
+    margin: 0px 50px;
+}
+
+.site-nav a {
+    color:deeppink;
+    text-decoration-style: wavy;}
+
+.main-content {
+    width: 50%;
+    margin: 0 auto;
+    background-color: pink;
+    padding: 10px;
+    text-align:left ;
+    border-radius: 10px;
+
+}
+
+.blog-post {width: fit-content;
+    color: whitesmoke; 
+    outline-color: 80% deeppink;
+    box-shadow: 0 0 20px deeppink;
+    padding: 10px;
+    border-radius: 15px;
+
+}
+
+.site-footer {
+    background-color: rgb(224, 173, 182);
+    text-align: left; font-size: smaller;
+
+}
+ 
+
+
+.form-group {
+    margin-top: 10px;
+
+}
+
+.form-groupp {
+    margin-top: 10px;
+    width: 20%
+
+}
+
+.form-group-label {
+    margin-bottom: 5px;
+    display: block;
+    font-weight: bold;
+
+}
+
+.form-group input, form-group select{
+    width: 50%;
+    height: 5px;
+    padding: 10px;
+    border: 1px solid deeppink;
+    font-size: larger;
+
+}
+
+
+.search input[type=text]{
+    width: 20%;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 16px;
+    border-color: 1px deeppink;
+
+}
+
+img {
+border-radius: 50%;
+
+
+}
+
+div {
+    display: inline-block;
+    font-size: smaller;
+    width: 200px;
+    height: 200px;
+    text-align:center;
+    margin-left: 100px;
+
+}
+
+#img3 {
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    width: 20%;
+
+
+
+}
+    

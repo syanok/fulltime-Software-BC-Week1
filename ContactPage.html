@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="styles.css">
+<head>
+    <title>Contact Page</title>
+</head>
+<body>
+    <h1>Contact page</h1>
+    <p>Please complete the contact form, below, and select submit when you are done to save your answers.</p>
+    <main class="main content">
+        <form class="contact-form">
+        
+            <div class="form-group">
+        <label>First name</label>
+        <input type="text" placeholder="enter here" required minlength="20">
+        </div>
+       
+        <div class="form-group">
+            <label>Last name</label>
+            <input type="text" placeholder="enter here">
+        </div >
+       
+        <div class="form-group">
+            <label>Email</label>
+            <input type="email" required placeholder="enter here">
+        </div>
+
+        <div class="form-group">
+            <label for="password"></label>
+            <input type="password"required placeholder="enter here" minlength="5" maxlength="10">
+
+
+        </div>
+    
+        <div class="form-groupp">
+            <label >Age</label>
+            <input type="number" required placeholder="Enter your age here" min="18">
+    </div>
+      
+    <div class="form-group">
+        <label>Type of Inquiry</label>
+            <select>
+                <option>-- Please select --</option>
+                <option>General question</option>
+                <option>Technical support</option>
+                <option>Other</option>
+            </Select>
+        </div>
+        <div>
+    <p>Preffered Contact Method</p>
+    <input type="radio" name="contact">Email
+    <input type="radio" name="contact">Phone
+    <input type="radio" name="contact">Other
+    
+
+    </div>
+    <input type="submit" value="submit">
+
+    <div class="search">
+    <input type="text" name="search" placeholder="search..">
+    </div>
+    </form>
+    </main>
+
+<br>
+
+<h3>Please select all that apply</h3>
+
+    
+    <div>
+<p>Hobbies</p>
+<input type="checkbox"> Reading
+<input type="checkbox"> Writing
+<input type="checkbox"> Swimming
+</div>
+
+</body>
+</html>
